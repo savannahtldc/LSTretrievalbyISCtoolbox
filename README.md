@@ -1,2 +1,4 @@
 # LSTretrievalbyISCtoolbox
-This repository provides an ArcGIS toolbox for automatic Land Surface Temperature retrieval from Landsat 8 and using the Improved Single Channel algorithm.
+This repository provides an ArcGIS toolbox for automatic Land Surface Temperature (LST) retrieval from Landsat 8 and using the Improved Single Channel (ISC) algorithm.
+In this tool, we implemented The Normalized Difference Vegetation Index (NDVI) threshold for Land Surface Emissivity (LSE) calculation and the ISC algorithm, developed by Cristóbal et al. (2018), for LST estimation. Users that would like to use this tool, please cite the paper "Land surface temperature retrieval and validation from Landsat 8 using the Improved Single Channel (ISC) algorithm" by Costa et al. (2021), which concerns the tool development and don't hesitate to contact the authors for any question. 
+Using this toolbox, we recommend that the original data (bands, scene metadata, shapefile) were located in a folder in the local disc (D:) to avoid any path conflict with the scripts implemented.  
